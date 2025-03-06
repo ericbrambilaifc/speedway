@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="./assets/img/Captura de tela 2025-02-27 160638.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>SpeedWay</title>
+
+<body>
+
+  <header>
+    <div class="">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-around">
+        <div class="container-fluid w-75 m-auto ">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/Captura de tela 2025-02-27 160638.png" width="100px"
+              alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- PEDIR PROFESSOR PARA COLOCAR NO MEIO -->
+            <ul class="navbar-nav ms-auto">
+              <div class="d-flex d-flex justify-content-center">
+
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-5" aria-current="page" href="preco.html">Preço</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="orçamento.html">Orçamamento</a>
+                </li>
+              </div> <!-- FECHA A DIV CENTER -->
+
+
+              <button type="button" class="btn btn-danger">
+                <li class="nav-item">
+                  <a class="nav-link text-white active px-5" href="suporte.html">Suporte</a>
+                </li>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="m-4">  
+    <div class="bg-danger w-75 m-auto border  rounded-3">
+      <div class="row m-auto">
+        <section class="col-8" id="info-ld1">
+          <h4 class="px-4 pt-5 text-light" id="encontre-solucao">Encontre sua</br> Solução! </h4>
+  
+          <form class="m-4 w-50 text-light" id="formulario">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small class="text-danger d-none" id="erroEmail">Digite um e-mail válido.</small>
+            </div>
+          
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Número de Telefone</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+              <small class="text-danger d-none" id="erroTelefone"></small>
+            </div>
+          
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2" class="text-dark">Relatar Problema</label>
+              <small class="text-danger d-none" id="erroMensagem">Este campo não pode estar vazio.</small>
+            </div>
+          
+            <button type="submit" class="btn btn-light mb-3 mt-3" id="btnEnviar">Enviar</button>
+          
+            <div id="alerta" class="alert alert-success alert-dismissible fade" role="alert">
+              Formulário enviado com sucesso!
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          </form>
+
+          
+  
+          </form>
+        </section>
+  
+  
+        <section class="col-4 d-flex justify-content-center" id="info-ld2">
+          <img src="assets/img/help-svgrepo-com.svg" id="img-ajuda" alt="...">
+        </section>
+      </div>
+    </div>
+  
+  </main>
+
+  <footer>    
+    <div class="bg-danger position-absolute bottom-0 w-100 p-2"> 
+        <p class="text-center text-light m-2 ">2025 - IFC PROJETO </p>
+    </div>
+</footer>
+
+  
+</body>
+
+</html>
